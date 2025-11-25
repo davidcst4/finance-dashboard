@@ -1,7 +1,7 @@
 import plotly.express as px
 import streamlit as st
 import data
-from pages import contas_a_pagar, contas_a_receber
+from pags import contas_a_pagar, contas_a_receber
 
 st.set_page_config(page_title="Dashboard Financeiro", page_icon="💰", layout="wide")
 

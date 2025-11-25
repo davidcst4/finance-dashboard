@@ -3,11 +3,11 @@ from datetime import datetime, date
 
 def get_contas_pagar():
     return pd.DataFrame({
-        "Fornecedor": ["Fornecedor A", "Fornecedor B", "Fornecedor C"],
-        "Valor": [1500, 2300, 900],
-        "Vencimento": ["2025-11-10", "2025-11-12", "2025-11-25"],
-        "Status": ["Aberto", "Aberto", "Pago"],
-        "Categoria": ["Compras de Mercadoria", "Informática", "Serviços"]
+        "Fornecedor": ["Fornecedor A", "Fornecedor B", "Fornecedor C", "Fornecedor B", "Fornecedor A"],
+        "Valor": [1500, 2300, 900, 1000, 1200],
+        "Vencimento": ["2025-11-10", "2025-11-12", "2025-11-25", "2025-11-12", "2025-11-10"],
+        "Status": ["Aberto", "Aberto", "Pago", "Aberto", "Pago"],
+        "Categoria": ["Compras de Mercadoria", "Informática", "Serviços", "Compras de Mercadoria", "Serviços"]
     })
 
 def get_kpis_contas_pagar():
